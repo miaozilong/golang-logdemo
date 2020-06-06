@@ -1,7 +1,7 @@
 package main
 
-import "logdemo/utils"
+import "logdemo/log"
 
 func main() {
-	utils.Debug("hello world")
+	log.Debug("hello world")
 }
